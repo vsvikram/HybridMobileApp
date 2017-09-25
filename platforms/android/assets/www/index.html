@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0; user-scalable=no" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <!-- include jquery mobile -->
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="underscore.js"></script>
+    <script src="backbone.js"></script>
+    <script src="smartsync.js"></script>
+    <!-- Local Testing -/->
+    <script src="js/MockCordova.js"></script>
+    <script src="js/cordova.force.js"></script>
+    <!-- End Local Testing -->
+
+    <!-- Container -->
+    <script src="cordova.js"></script>
+    <!-- End Container -->
+
+    <!-- include force.js for REST transaction support -->
+    <script src="force.js"></script>
+
+    <!-- log window styling -->
+    <style>
+      .logWindow {display:none; width:700px;}
+      .logWindow > p {padding:0px; margin:0px; word-wrap:break-word;}
+    </style>
+    <script src="inline1.js"></script>
+    <script>
+
+
+  // The version of the REST API you wish to use in your app.
+  var apiVersion = "v39.0";
+
+
+    var debugMode = true;
+
+    jQuery(document).ready(function() {
+    /* This will only be true when testing in a browser with MockCordova */
+        if (cordova.interceptExec) {
+            force.init({loginURL: "https://test.salesforce.com/",
+                        appId: "3MVG98dostKihXN53TYStBIiS8BTFb20jwWfFcShqfABb3c.HH3CkmA00FuCmc0aM3v4LZOGR5QBnEi77fotN",
+                        oauthCallbackURL: "http://localhost:8200/test/oauthcallback.html",
+                        useCordova: false /* running in browser with mock cordova - so do oauth through browser and network through xhr */
+                       });
+        }
+
+        /* Do login */
+        force.login(
+            function() {
+                console.log("Auth succeeded");
+                regLinkClickHandlers();
+                registerSoups();
+                manageSync();
+            },
+            function(error) {
+                console.log("Auth failed: " + error);
+            }
+        );
+    });
+
+    </script>
+
+    <!-- load our app-specific code -->
+
+
+</head>
+<body>
+<div data-role="page" data-theme="b" id="jqm-home">
+    <div  data-role="header">
+        <h1>My ORG</h1>
+    </div>
+
+    <div id="#content" data-role="content">
+
+        <p>
+            <a href="#" id="link_fetch_sfdc_contacts" data-role="button" data-inline="true">Contacts</a>
+            <a href="#" id="link_fetch_sfdc_accounts" data-role="button" data-inline="true">Accounts</a>
+            <a href="#" id="link_reset" data-role="button" data-inline="true">Reset</a>
+        </p>
+        <p>
+            <a href="#" id="link_fetch" data-role="button" data-inline="true">Fetch</a>
+            <a href="#" id="link_sync" data-role="button" data-inline="true">Sync</a>
+            <a href="#" id="link_switch_user" data-role="button" data-inline="true">Switch User</a>
+            <a href="#" id="link_logout" data-role="button" data-inline="true">Logout</a>
+            <a href="#" id="link_create_account" data-role="button" data-inline="true">Create Account</a>
+            <a href="#" id="link_clear" data-role="button" data-inline="true">Clear Soup</a>
+            <a href="#" id="link_image" data-role="button" data-inline="true">Capture Image</a>
+
+
+
+        </p>
+
+        <div id="div_device_contact_list"></div>
+        <div id="div_sfdc_contact_list"></div>
+        <div id="div_sfdc_account_list"></div>
+        <div id="div_sfdc_account_create"></div>
+
+    </div>
+
+</div>
+</body>
+</html>

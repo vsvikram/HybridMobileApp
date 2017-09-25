@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\build\\intermediates\\res\\merged\\debug\\xml\\servers.xml",
+        "source": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\res\\xml\\servers.xml"
+    },
+    {
+        "merged": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\build\\intermediates\\res\\merged\\debug\\xml\\authenticator.xml",
+        "source": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\res\\xml\\authenticator.xml"
+    },
+    {
+        "merged": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\build\\intermediates\\res\\merged\\debug\\xml\\app_restrictions.xml",
+        "source": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\res\\xml\\app_restrictions.xml"
+    }
+]

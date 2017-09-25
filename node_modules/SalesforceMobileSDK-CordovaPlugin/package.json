@@ -1,0 +1,99 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin",
+        "spec": "git+https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:forcedotcom/SalesforceMobileSDK-CordovaPlugin.git",
+          "sshUrl": "git+ssh://git@github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin.git",
+          "httpsUrl": "git+https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin.git",
+          "gitUrl": "git://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin.git",
+          "shortcut": "github:forcedotcom/SalesforceMobileSDK-CordovaPlugin",
+          "directUrl": "https://raw.githubusercontent.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin/master/package.json"
+        }
+      },
+      "C:\\Users\\vikram.singh1\\HybridMobileApp\\node_modules"
+    ]
+  ],
+  "_from": "git+https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin.git",
+  "_id": "SalesforceMobileSDK-CordovaPlugin@5.3.0",
+  "_inCache": true,
+  "_location": "/SalesforceMobileSDK-CordovaPlugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin",
+    "spec": "git+https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:forcedotcom/SalesforceMobileSDK-CordovaPlugin.git",
+      "sshUrl": "git+ssh://git@github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin.git",
+      "httpsUrl": "git+https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin.git",
+      "gitUrl": "git://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin.git",
+      "shortcut": "github:forcedotcom/SalesforceMobileSDK-CordovaPlugin",
+      "directUrl": "https://raw.githubusercontent.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin.git#dc89cbccfba5e02633f5bf99487755ced546eaa4",
+  "_shasum": "1f14827122ced9799060471ee31282e53d1b264a",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin",
+  "_where": "C:\\Users\\vikram.singh1\\HybridMobileApp\\node_modules",
+  "author": {
+    "name": "Bharath Hariharan",
+    "email": "bhariharan@salesforce.com"
+  },
+  "bugs": {
+    "url": "https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin/issues"
+  },
+  "contributors": [
+    {
+      "name": "Wolfgang Mathurin",
+      "email": "wmathurin@salesforce.com"
+    }
+  ],
+  "dependencies": {},
+  "description": "Salesforce Mobile SDK Cordova Plugin Repository",
+  "devDependencies": {},
+  "gitHead": "dc89cbccfba5e02633f5bf99487755ced546eaa4",
+  "homepage": "https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin",
+  "keywords": [
+    "mobilesdk",
+    "android",
+    "ios",
+    "cordova",
+    "salesforce",
+    "mobile",
+    "sdk"
+  ],
+  "licenses": [
+    {
+      "type": "Salesforce.com Mobile SDK License",
+      "url": "https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin/blob/master/LICENSE.md"
+    }
+  ],
+  "name": "SalesforceMobileSDK-CordovaPlugin",
+  "optionalDependencies": {},
+  "readme": "![Build Status](https://forcedotcom.github.io/SalesforceMobileSDK-TestResults/CordovaPlugin-results/dev/latest/buildstatus.svg)\n\nSteps to use the Cordova plugin for the Salesforce Mobile SDK\n------------------------\n\nSee [forcedroid](https://npmjs.org/package/forcedroid) for details on how to create a hybrid app using Mobile SDK.\n\nFor more information, check out [Salesforce Mobile SDK Development Guide](https://github.com/forcedotcom/SalesforceMobileSDK-Shared/blob/master/doc/mobile_sdk.pdf?raw=true)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin.git"
+  },
+  "version": "5.3.0"
+}

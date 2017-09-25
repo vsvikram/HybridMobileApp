@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceHybrid\\build\\intermediates\\res\\merged\\debug\\menu\\sf__clear_custom_url.xml",
+        "source": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\menu\\sf__clear_custom_url.xml"
+    },
+    {
+        "merged": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceHybrid\\build\\intermediates\\res\\merged\\debug\\menu\\sf__login.xml",
+        "source": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\build\\intermediates\\bundles\\default\\res\\menu\\sf__login.xml"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "C:\\Users\\vikram.singh1\\.android\\build-cache\\60ff839efd7eb1dd82cf8ba55b59545eb7d7d659\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\googleg_disabled_color_18.png",
+        "source": "C:\\Users\\vikram.singh1\\.android\\build-cache\\60ff839efd7eb1dd82cf8ba55b59545eb7d7d659\\output\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sf__icon.png",
+        "source": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\res\\drawable-mdpi\\sf__icon.png"
+    },
+    {
+        "merged": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "C:\\Users\\vikram.singh1\\.android\\build-cache\\60ff839efd7eb1dd82cf8ba55b59545eb7d7d659\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "C:\\Users\\vikram.singh1\\.android\\build-cache\\60ff839efd7eb1dd82cf8ba55b59545eb7d7d659\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "C:\\Users\\vikram.singh1\\.android\\build-cache\\60ff839efd7eb1dd82cf8ba55b59545eb7d7d659\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sf__edit_icon.png",
+        "source": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\res\\drawable-mdpi\\sf__edit_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\googleg_standard_color_18.png",
+        "source": "C:\\Users\\vikram.singh1\\.android\\build-cache\\60ff839efd7eb1dd82cf8ba55b59545eb7d7d659\\output\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sf__highlight_glare.png",
+        "source": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\res\\drawable-mdpi\\sf__highlight_glare.png"
+    },
+    {
+        "merged": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sf__ic_refresh_sync_anim0.png",
+        "source": "C:\\Users\\vikram.singh1\\HybridMobileApp\\platforms\\android\\SalesforceSDK\\res\\drawable-mdpi\\sf__ic_refresh_sync_anim0.png"
+    }
+]
